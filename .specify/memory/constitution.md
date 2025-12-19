@@ -1,55 +1,56 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT
+Version change: undefined → 1.0.0
+Modified principles: [PRINCIPLE_1_NAME] → Accuracy Through Primary Source Verification, [PRINCIPLE_2_NAME] → Academic Clarity and Precision, [PRINCIPLE_3_NAME] → Reproducibility and Traceability, [PRINCIPLE_4_NAME] → Scholarly Rigor, [PRINCIPLE_5_NAME] → Source Verification, [PRINCIPLE_6_NAME] → Citation Requirements
+Added sections: Source Quality, Plagiarism Policy, Writing Quality, Structural and Content Constraints, AI Usage Rules
+Removed sections: None
+Templates requiring updates:
+- .specify/templates/plan-template.md ✅ updated
+- .specify/templates/spec-template.md ✅ updated
+- .specify/templates/tasks-template.md ✅ updated
+- .specify/templates/commands/*.md ⚠ pending
+Follow-up TODOs: None
+-->
+# AI / Spec-Driven Book Creation using Spec-Kit Plus Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Accuracy Through Primary Source Verification
+All factual statements, technical explanations, statistics, and claims must be verified against authoritative primary sources. Secondary sources may be used only for contextual framing and must not replace original research or peer-reviewed material.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Academic Clarity and Precision
+Content must be written for an audience with a computer science or technical background, using precise terminology, unambiguous explanations, and logically structured arguments. Concepts should be explained clearly without oversimplification.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Reproducibility and Traceability
+Every non-trivial claim must be traceable to a cited source. Readers should be able to independently verify all assertions using the provided references. Citations must be embedded directly within the content.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Scholarly Rigor
+Preference must be given to peer-reviewed academic literature, official standards, and reputable institutional publications. Informal or non-academic sources must be used sparingly and only when peer-reviewed material is unavailable.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Source Verification
+All factual claims must be explicitly supported by cited sources. Claims without citations are not permitted. Contradictory sources must be resolved or clearly acknowledged.
 
-### [PRINCIPLE_6_NAME]
+### Citation Requirements
+Citation style must follow APA (American Psychological Association) standards. Citations must be embedded inline and listed in a references section. All sources must be accessible and verifiable.
 
+## Source Quality
+A minimum of 50% of all sources must be peer-reviewed (journals, conference papers, academic publishers). Remaining sources may include official documentation, standards bodies, and reputable technical organizations.
 
-[PRINCIPLE__DESCRIPTION]
+## Plagiarism Policy
+Zero tolerance for plagiarism. All content must be original, properly paraphrased, and cited. A plagiarism check must be performed prior to submission or publication.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Writing Quality
+Writing clarity must meet a Flesch-Kincaid grade level of 10–12. Sentences should be concise, technically accurate, and logically connected. Redundant or filler content is prohibited.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Structural and Content Constraints
+Total Word Count: 5,000 – 7,000 words. Minimum Number of Sources: 15. Formatting Output: Primary authoring in Docusaurus (Markdown), Final export as PDF with embedded citations. Deployment Target: GitHub Pages.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## AI Usage Rules
+Claude Code may be used for drafting, structuring, summarizing, and refining content. AI-generated text must always be reviewed for factual accuracy, citation completeness, and originality. AI must not fabricate sources, citations, or experimental results.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Success Criteria
+The project is considered successful only if all of the following conditions are met: Every factual claim is verified against credible sources. All citations conform to APA standards. At least 50% of sources are peer-reviewed. Zero plagiarism is detected in final checks. The content passes a formal fact-checking review. The final document adheres to word count, formatting, and clarity requirements. The book is successfully deployed via Docusaurus on GitHub Pages.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+This constitution defines the immutable principles, standards, constraints, and success criteria that govern all content generation, verification, and publication activities throughout the project lifecycle. All project activities must comply with these principles. Any deviation requires formal amendment to this constitution.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-17 | **Last Amended**: 2025-12-17

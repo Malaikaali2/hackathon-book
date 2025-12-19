@@ -1,0 +1,15 @@
+# Python dependencies for validation tools
+# Used for word count, readability analysis, and other validation tasks
+
+# Text processing and analysis
+nltk==3.8.1
+textstat==0.7.3
+py-readability-metrics==1.0.2
+
+# For potential citation management and academic tools
+pybtex==0.24.0
+bibtexparser==1.4.1
+
+# General utilities
+requests==2.31.0
+pandas==2.0.3
